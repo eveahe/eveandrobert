@@ -20,6 +20,8 @@
     
     <!-- import the webpage's client-side javascript file -->
     <script src="/client.js" defer></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
+    <script src="/confetti.js"></script>
   </head>
   <body>
     <header>
@@ -38,18 +40,38 @@
           </div>
         <button class="accordion">Traveling to Franklin</button>
           <div class="panel">
-              <p>The farmhouse’s address is 1904 Bennett Hollow Rd. Franklin, NY 13775. It is about a 4 hour drive from New York City. If traveling from outside the New York area, the closest airport to fly into is Albany, which is about 2 hours away.
+              <p>The farmhouse’s address is <mark>1904 Bennett Hollow Rd. Franklin, NY 13775.</mark> It is about a <mark>4 hour drive from New York City.</mark> If traveling from outside the New York area, the closest airport to fly into is Albany, which is about 2 hours away.
               </p>
           </div>
         <button class="accordion">Staying by Franklin</button>
           <div class="panel">
-              <p>All guests are welcome to bring tents and camp on the property where the wedding will be held, just let us know if that’s what you plan to do so that we can give the owners an estimate. We’ve done it many times and can wholeheartedly recommend it!</p>
+              <p><mark>All guests are welcome to bring tents and camp</mark> on the property where the wedding will be held, just let us know if that’s what you plan to do so that we can give the owners an estimate. We’ve done it many times and can wholeheartedly recommend it!</p>
               <br>
-              <p>If camping before a formal occasion is not something you’re interested in, check out <a href="https://www.airbnb.com/wishlists/328640623/join?invite_code=YRQOUNPU&inviter_id=7651224" target="_blank">this list</a> of recommended Air BnBs nearby.</p>
+              <p>If camping before a formal occasion is not something you’re interested in, check out <a href="https://www.airbnb.com/wishlists/328640623/join?invite_code=YRQOUNPU&inviter_id=7651224" target="_blank">this list</a> of <mark>recommended Air BnBs nearby.</mark></p>
               <br>
               <p>
-                If staying in an Air BnB isn’t your thing either, there are a few hotels in Oneonta. We are in the process of compiling recommendations, but please be in touch on what you're thinking.
+                If staying in an Air BnB isn’t your thing either, <mark>we have a room block at the Quality Inn in Oneonta, NY.</mark> Call the front desk at 607.433.2250 and tell them you're with the Ahearn Norman wedding! 
             </p>
+            <br>
+            <p>
+              If you're having difficulty finding a place to stay or just want to chat through options, email rznorman@gmail.com.
+            </p>
+            <br>
+            <p>
+              Finally, if you have booked, let us know! We're looking to organize a shuttle.
+            </p>
+          </div>
+        <button class="accordion">Registry</button>
+          <div class="panel">
+              <p>We're mostly excited to celebrate with you! If you would like to get a gift we'd appreciate:
+              <ul>
+                  <li>Something you made.</li>
+                  <li>Something that made you think of us.</li> 
+                  <li>Something we can make together.</li>
+                  <li>Or anything from this registry list!</li>
+                  <li><a href="https://www.zola.com/registry/eveandrobert" target="_blank">https://www.zola.com/registry/eveandrobert</a></li>
+            </ul>
+              </p>
           </div>
         <button class="accordion">Even More Info</button>
           <div class="panel">
@@ -60,7 +82,7 @@
         <a class="roselink" href="/">♡ Eve + Robert</a>
 
       </div>
-      
+      <div id="confetti"></div>
       
 
     </main>
